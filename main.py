@@ -13,6 +13,7 @@ janela = Tk()
 janela.title('Calculadora ')
 janela.geometry('235x318')
 janela.config(bg=cor1)
+janela.iconbitmap('icon2.ico')
 
 #Criando Frames
 frame_tela = Frame(janela, width=235, height=50, bg=cor3)
